@@ -357,7 +357,7 @@ body {
 
 @media (max-width: 850px) and (orientation: portrait) {
   .wrapper {
-    padding: 39.8vh 0px 0 5vw;
+    padding: 39.8vh 0 0 5vw;
   }
 
   .hard {
@@ -383,7 +383,7 @@ body {
   }
 
   .button {
-    margin: 0px auto;
+    margin: 0 auto;
   }
 
   .card-1 {
