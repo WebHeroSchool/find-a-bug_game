@@ -34,7 +34,7 @@ body {
   background-image: url("./img/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  max-height: 100vh;
+  min-height: 100vh;
 }
 
 .wrapper {
@@ -50,7 +50,7 @@ body {
 .wrapper-game {
   display: none;
   width: auto;
-  height: 100vh;
+  min-height: 100vh;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -385,15 +385,16 @@ body {
   }
 
   .level {
-    width: 84%;
-    margin: 0 0 7vh 18vw;
+    width: 40%;
+    margin: 0 auto 7vh;
     text-align: center;
   }
 
   .button {
     margin: 0 auto;
     position: inherit;
-    margin-left: 11%;
+    display: block;
+    width: 354px;
   }
 
   .card-1 {
@@ -412,13 +413,13 @@ body {
 
   .flip-card {
     width: 20vw;
-    min-width: 21%;
+    min-width: 26%;
     height: 30vh;
   }
 
   .wrapper-game {
-    padding: 79px 2% 86px 0;
-    width: 100%;
+    padding: 10px 2% 122px 5%;
+    width: 61%;
   }
 }
 
@@ -569,7 +570,7 @@ body {
   }
 
   .level {
-    margin: 0 6% 13% 38%;
+    margin: 0 6% 13% 32%;
     width: 55%;
   }
 
@@ -608,13 +609,18 @@ body {
   }
 
   .wrapper-game {
-    padding: 0 0 172px 0;
+    padding: 0 auto o 50px;
   }
 
   .flip-card {
     width: 13vw;
     min-width: 81px;
     height: 29vw;
+  }
+
+  .simple {
+    width: 57%;
+    padding-left: 122px;
   }
 
   .middle {
@@ -625,7 +631,7 @@ body {
   .hard {
     width: 70%;
     margin-left: 11%;
-    padding: 0 0 0 12%;
+    padding: 0 0 0 1%;
   }
 
   .title {
@@ -682,8 +688,8 @@ body {
 
 @media (min-width: 360px) and (orientation: portrait) {
   .flip-card {
-    width: 25vw;
-    min-width: 83px;
-    height: 39vw;
+    width: 15vw;
+    min-width: 71px;
+    height: 17vh;
   }
 }
