@@ -46,7 +46,7 @@ function chooseLevel(level) {
   switch (level) {
     case "Простой":
       createCard(3);
-      wrapperGame.classList.add("simple")
+      wrapperGame.classList.add("simple");
       break;
     case "Средний":
       createCard(6);
